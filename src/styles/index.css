@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,800");
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Garamond);
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+
+body {
+  font-family: monospace;
+  width: 100%;
+}
+
+p {
+  margin-left: 30px;
+  margin-bottom: -10px;
+  font-size: 20px;
+}
+
+button {
+  font-size: 1em;
+  font-family: monospace;
+  background-color: #f8bbd0;
+  cursor: pointer;
+  border-width: 0em;
+  padding: 0.5em;
+  border-style: solid;
+  color: #fff;
+}
+
+.purple {
+  background-color: #06575b;
+}
+
+.blue {
+  background-color: #76adb4;
+}
+
+.green {
+  background-color: #c9e1e8;
+}
+
+#links {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-right: 60px;
+  text-align: right;
+}
+
+#name {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  margin-left: 40px;
+  display: block;
+}
+
+.letter {
+  font-size: 200px;
+  line-height: 110px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  letter-spacing: -20px;
+  mix-blend-mode: color-burn;
+  position: relative;
+  transition: top ease 0.1s;
+  transition-delay: 2s;
+  opacity: 0.9;
+}
+
+#d {
+  color: #159eb4;
+}
+
+#e {
+  color: #06575b;
+}
+
+#a {
+  color: #66a4ac;
+}
+
+#n {
+  color: #c3dee5;
+}
+
+#b {
+  color: #c3dee5;
+}
+
+#o {
+  color: #06575b;
+}
+
+#z {
+  color: #66a4ac;
+}
+
+#i {
+  color: #c3dee5;
+}
+
+#c {
+  color: #06575b;
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 50px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.hovered {
+  animation: mymove 3s;
+}
+
+::selection {
+  background: #b39ddb;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+.container-header {
+  /*background: url(img/seigaiha.png);*/
+  width: 100vw;
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container-header p {
+  padding-top: 10%;
+  text-align: center;
+  font-family: "Homemade Apple", cursive;
+  font-style: italic;
+  font-size: 1em;
+  color: grey;
+
+  animation-name: fadeIn;
+  animation-delay: 0s;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+.typing-text h2 {
+  font-family: "Josefin Sans", sans-serif;
+  height: 100px;
+  font-size: 2.5em;
+  margin-left: 60px;
+}
+
+.container-footer {
+  background-color: #f6546a;
+  box-shadow: 20px 20px yellow;
+  width: 60%;
+  height: 80px;
+
+  margin: auto;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+
+  text-align: center;
+  padding-top: 50px;
+}
+.container-footer p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
