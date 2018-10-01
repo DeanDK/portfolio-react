@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 import Header from "./Header.js";
 
@@ -49,7 +50,9 @@ class App extends Component {
       <div>
         <div id="links">
           <button className="purple">About</button>
-          <button className="blue">Portfolio</button>
+          <button className="blue">
+            <Link to="/portfolio">Portfolio</Link>
+          </button>
           <button className="green">Contact</button>
         </div>
         <div id="content">
