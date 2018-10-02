@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import Header from "./Header.js";
+import Navigation from "./Navigation.js";
 
 class App extends Component {
   state = {
@@ -48,13 +49,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div id="links">
-          <button className="purple">About</button>
-          <button className="blue">
-            <Link to="/portfolio">Portfolio</Link>
-          </button>
-          <button className="green">Contact</button>
-        </div>
+        <Navigation />
         <div id="content">
           <div id="name">
             <span className="logo" onMouseEnter={this.interaction}>
