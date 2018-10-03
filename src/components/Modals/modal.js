@@ -90,7 +90,7 @@ class ModalExample extends Component {
               color="danger"
               onClick={() => this.setState({ modal: !this.state.modal })}
             >
-              Cancel
+              Exit
             </Button>
           </ModalFooter>
         </Modal>
