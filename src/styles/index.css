@@ -305,3 +305,17 @@ a:visited {
   font-size: 14px;
   line-height: 2;
 }
+
+/*=================================
+            Modal
+  ===================================*/
+
+.modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}

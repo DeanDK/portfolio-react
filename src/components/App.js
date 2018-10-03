@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Button } from "reactstrap";
 
 import Header from "./Header.js";
 import Navigation from "./Navigation.js";
