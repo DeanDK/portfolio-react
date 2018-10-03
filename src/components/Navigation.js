@@ -6,11 +6,12 @@ const Navigation = props => (
     <button className="blue">
       <Link to="/">Home</Link>
     </button>
-    <button className="purple">About</button>
+    <button className="purple">
+      <Link to="/about">About</Link>
+    </button>
     <button className="blue">
       <Link to="/portfolio">Portfolio</Link>
     </button>
-    <button className="green">Contact</button>
   </div>
 );
 

@@ -27,7 +27,7 @@ button {
 }
 
 .purple {
-  background-color: #06575b;
+  background-color: #c9e1e8;
 }
 
 .blue {
@@ -43,6 +43,13 @@ button {
   margin-top: 30px;
   margin-right: 20px;
   text-align: right;
+}
+
+@media only screen and (max-width: 900px) {
+  #links {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 #name {
@@ -66,6 +73,13 @@ button {
   transition: top ease 0.1s;
   transition-delay: 2s;
   opacity: 0.9;
+}
+
+@media only screen and (max-width: 560px) {
+  .letter {
+    font-size: 150px;
+    margin-left: -10px;
+  }
 }
 
 #d {
@@ -157,6 +171,12 @@ a:visited {
   margin-left: 60px;
 }
 
+@media only screen and (max-width: 560px) {
+  .typing-text h2 {
+    font-size: 1rem;
+  }
+}
+
 .container-footer {
   background-color: #f6546a;
   box-shadow: 20px 20px yellow;
@@ -201,6 +221,12 @@ a:visited {
   max-width: 1200px;
   margin: 0 auto;
   padding: 6% 2%;
+}
+
+@media only screen and (max-width: 992px) {
+  .xop-section {
+    pointer-events: none;
+  }
 }
 
 .xop-grid {
@@ -278,7 +304,7 @@ a:visited {
 }
 .xop-img-6 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
-    url("/images/feedback-cap.png");
+    url("/images/images.png");
   background-size: cover;
 }
 
@@ -318,4 +344,62 @@ a:visited {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+/*=================================
+            Contact
+  ===================================*/
+
+.box {
+  width: 450px;
+  background: #76adb4;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 4%;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 470px) {
+  .box {
+    width: 350px;
+  }
+}
+.box-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p {
+  text-align: justify;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.box li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover {
+  color: #b9b9b9;
 }

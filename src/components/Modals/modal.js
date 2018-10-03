@@ -52,6 +52,24 @@ class ModalExample extends Component {
             width="780px"
           />
         );
+      case "Student Knowledge Exchange Platform - Web app for VIA University College":
+        return (
+          <img
+            alt="skep"
+            src="./images/skep.png"
+            height="450px"
+            width="780px"
+          />
+        );
+      case "Blog With RoR based on the Jordan Hudgens course":
+        return (
+          <img
+            alt="blog"
+            src="./images/portfolio.png"
+            height="450px"
+            width="780px"
+          />
+        );
         break;
       default:
     }

@@ -6,6 +6,13 @@ import registerServiceWorker from "./registerServiceWorker";
 import Routes from "./routes/routes";
 import { BrowserRouter } from "react-router-dom";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faCodeBranch } from "@fortawesome/free-solid-svg-icons";
+import { faAt } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faCodeBranch);
+library.add(faAt);
+
 ReactDOM.render(
   <BrowserRouter>
     <Routes />

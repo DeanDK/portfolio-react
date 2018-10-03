@@ -35,8 +35,8 @@ class Portfolio extends Component {
                   <div className="xop-info">
                     <h3>Translate</h3>
                     <p>
-                      Nulla commodo iaculis vulputate. Nullam enim mauris,
-                      dignissim id est nec, mollis pretium nulla.
+                      Translate web app help customers manually translate most
+                      common e-commerce terms to any desired lanugage
                     </p>
                   </div>
                 </Link>
@@ -53,8 +53,8 @@ class Portfolio extends Component {
                   <div className="xop-info">
                     <h3>Mailchimp</h3>
                     <p>
-                      Nulla commodo iaculis vulputate. Nullam enim mauris,
-                      dignissim id est nec, mollis pretium nulla.
+                      Mailchimp web app helps customers to improve their
+                      marketing automation and connect with their audience
                     </p>
                   </div>
                 </Link>
@@ -71,8 +71,7 @@ class Portfolio extends Component {
                   <div className="xop-info">
                     <h3>File Upload</h3>
                     <p>
-                      Nulla commodo iaculis vulputate. Nullam enim mauris,
-                      dignissim id est nec, mollis pretium nulla.
+                      File uploading with ReactJS and multer Node.js middleware
                     </p>
                   </div>
                 </Link>
@@ -89,8 +88,7 @@ class Portfolio extends Component {
                   <div className="xop-info">
                     <h3>Product List</h3>
                     <p>
-                      Nulla commodo iaculis vulputate. Nullam enim mauris,
-                      dignissim id est nec, mollis pretium nulla.
+                      List of all products associated with Jumpseller store.
                     </p>
                   </div>
                 </Link>
@@ -107,10 +105,11 @@ class Portfolio extends Component {
               >
                 <Link to="#">
                   <div className="xop-info">
-                    <h3>Student Exhange</h3>
+                    <h3>SKEP</h3>
                     <p>
-                      Nulla commodo iaculis vulputate. Nullam enim mauris,
-                      dignissim id est nec, mollis pretium nulla.
+                      SKEP is a web app that helps VIA students upload their
+                      project/internship experiences and share them with other
+                      students.
                     </p>
                   </div>
                 </Link>
@@ -119,14 +118,18 @@ class Portfolio extends Component {
             <li>
               <div
                 className="xop-box xop-img-6"
-                onClick={e => this.toggle("Feedback App - Personal Project")}
+                onClick={e =>
+                  this.toggle(
+                    "Blog With RoR based on the Jordan Hudgens course"
+                  )
+                }
               >
                 <Link to="#">
                   <div className="xop-info">
-                    <h3>Feedback</h3>
+                    <h3>Portfolio</h3>
                     <p>
-                      Nulla commodo iaculis vulputate. Nullam enim mauris,
-                      dignissim id est nec, mollis pretium nulla.
+                      First Portfolio developed while following the Jordan
+                      Hudengs course
                     </p>
                   </div>
                 </Link>
