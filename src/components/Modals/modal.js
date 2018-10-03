@@ -20,7 +20,7 @@ class ModalExample extends Component {
         return (
           <img
             alt="translate"
-            src="./images/translation.PNG"
+            src="./images/translate_n2.PNG"
             height="450px"
             width="780px"
           />

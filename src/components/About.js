@@ -13,7 +13,7 @@ const About = () => (
       <p>
         Born and raised in Bosnia and Herzegovina. Enrolled in VIA University
         College, Denmark - attending last semester. Besided my love for coding,
-        I enjoy watching documentaries and reading.
+        I enjoy watching documentaries and watching sports.
       </p>
       <ul>
         <li>
